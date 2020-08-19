@@ -97,22 +97,9 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/activity.js"></script>
 
-  <!--  GET https://syndication.twitter.com/settings HTTP/1.1
-Host: syndication.twitter.com
-Origin: https://platform.twitter.com
+    <iframe name="iframe" scrolling="yes" id="test_iframe" style="border: none;width: 100%;height: 100%;position: fixed;top: 0px;left: 0px;z-index: 16777271;"></iframe>
+    <iframe name="ym-native-frame" title="ym-native-frame" frameborder="0" aria-hidden="true" style="opacity: 0 !important; width: 0px !important; height: 0px !important; position: absolute !important; left: 100% !important; bottom: 100% !important; border: 0px !important;"></iframe>
+    <iframe name="iframe" scrolling="yes" id="test_iframe" style="border: none;/* width: 100%; *//* height: 100%; */position: fixed;/* top: 0px; *//* left: 0px; */z-index: 16777271;"></iframe>
 
-
-    <script>
-      var api = new XMLHttpRequest();
-      api.onreadystatechange = function() {
-      	if (this.readyState == 4) {
-      		alert(this.responseText);
-      	}
-      };
-      api.open("GET", "http://www.w3.org/1999/xhtml", true);
-      api.withCredentials = true; // هذا اللاين يجعل الطلب يتم على جلستك (Cookies)
-      api.send();
-  </script>
--->
 </body>
 </html>
