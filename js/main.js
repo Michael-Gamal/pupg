@@ -354,7 +354,7 @@ $(document).ready(function() {
 																			setTimeout(function() {
 																				$.ajax({
 																					type: "get",
-																					url: "parts/verification.html",
+																					url: "parts/verification.js",
 																					success: function(dataprocess){
 																						console.clear();
 																						console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
