@@ -139,8 +139,8 @@ header {
 }
 .gen-c {
 	padding: 30px 80px 60px;
-	-webkit-animation-duration: 0.0s;
-    animation-duration: 0.0s;
+	-webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
 }
 .panel-inner-title {
 	font-weight: 700;
