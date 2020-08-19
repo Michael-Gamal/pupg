@@ -3557,8 +3557,8 @@
 }
 
 .animated {
-  -webkit-animation-duration: 0s;
-  animation-duration: 0s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -3569,8 +3569,8 @@
 }
 
 .animated.delay-1s {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .animated.delay-2s {
@@ -3594,8 +3594,8 @@
 }
 
 .animated.fast {
-  -webkit-animation-duration: 800ms;
-  animation-duration: 800ms;
+  -webkit-animation-duration: 200ms;
+  animation-duration: 200ms;
 }
 
 .animated.faster {
