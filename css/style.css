@@ -72,11 +72,11 @@ h1, h2, h3, h4, h5, h6, h7 {
 --------------------------------------------------------------*/
 #video-background {
 	position: fixed;
-	right: 0; 
+	right: 0;
 	bottom: 0;
-	min-width: 100%; 
+	min-width: 100%;
 	min-height: 100%;
-	width: auto; 
+	width: auto;
 	height: auto;
 	z-index: -100;
 }
@@ -139,8 +139,8 @@ header {
 }
 .gen-c {
 	padding: 30px 80px 60px;
-	-webkit-animation-duration: 0.5s;
-    animation-duration: 0.5s;
+	-webkit-animation-duration: 0.0s;
+    animation-duration: 0.0s;
 }
 .panel-inner-title {
 	font-weight: 700;
@@ -436,10 +436,10 @@ header {
 .resource-button.resource-button-n-a {
 	-webkit-filter: grayscale(100%);
 	-webkit-transition: .2s ease-in-out;
-	-moz-filter: grayscale(100%); 
+	-moz-filter: grayscale(100%);
 	-moz-transition: .2s ease-in-out;
-	-o-filter: grayscale(100%); 
-	filter: grayscale(100%); 
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
 	-o-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 	color: #777;
@@ -589,7 +589,7 @@ header {
 	display: block;
 	line-height: 1;
 }
-	
+
 /*--------------------------------------------------------------
 # Act
 --------------------------------------------------------------*/
@@ -625,12 +625,12 @@ header {
 #recent-activity-row {
 	margin-bottom: 50px;
 }
-div.sticky-queue { 
+div.sticky-queue {
 	display: block;
 	left: 0;
 	top: 0;
-	margin: 0;	
-	position: relative;	
+	margin: 0;
+	position: relative;
 	width: 100%;
 }
 .sticky {
@@ -659,7 +659,7 @@ div.sticky-queue {
 	display: none;
 	position: relative;
 }
-div.recent-activity-tab	{  
+div.recent-activity-tab	{
 	padding: 7px 0 3px 0;
 }
 .recent-activity-user-wrapper {
@@ -797,7 +797,7 @@ div.recent-activity-tab	{
 	border-radius: 6px;
 }
 .activity-progress-label {
-	position: absolute;	
+	position: absolute;
 	text-transform: uppercase;
 	color: #fff;
 	-webkit-transition: all 0.2s ease-in-out 0s;
@@ -918,7 +918,7 @@ footer a:hover {
 	width: 100%;
 	left: 0;
 	top: -10px;
-	
+
 }
 .footer-popup-wrapper h1 {
 	margin: 0 0 20px 0;
@@ -999,7 +999,7 @@ footer a:hover {
 }
 .footer-popup-wrapper textarea.input-style {
 	height: auto;
-	padding: 10px 15px;	
+	padding: 10px 15px;
 }
 .footer-popup-wrapper label {
 	font-size: 0.9em;
@@ -1049,12 +1049,12 @@ footer a:hover {
     }
 }
 @media (max-aspect-ratio: 16/9) {
-    #video-background { 
+    #video-background {
         width:auto;
         height: 100%;
     }
-	
-@media screen and (max-width: 767px) { 
+
+@media screen and (max-width: 767px) {
      #video-background  {
         display: none;
     }
@@ -1064,7 +1064,7 @@ footer a:hover {
 body {
         background: url('../img/bg-mobile.jpg');
         background-size: cover;
-	}	
+	}
 	.img-logo {
 		max-width: 300px;
 		width: 90%;
@@ -1104,8 +1104,8 @@ body {
 		margin-bottom: 10px;
 	}
 }
-@media screen and (max-width: 440px) { 
-  
+@media screen and (max-width: 440px) {
+
 	a.button, #verification-button {
 		font-size: 2em;
 	}
@@ -1131,8 +1131,8 @@ body {
 		display: table;
 		margin: 0 auto;
 	}
-	.platform-item-inner-wrapper {		
-		height: auto;		
+	.platform-item-inner-wrapper {
+		height: auto;
 	}
 	.platform-item-inner-wrapper i {
 		display: block;
@@ -1148,8 +1148,8 @@ body {
 		font-size: 2em;
 	}
 }
-@media screen and (max-width: 420px) { 
-    
+@media screen and (max-width: 420px) {
+
 	.gen-h h1 {
 		font-size: 26px;
 	}
@@ -1174,16 +1174,16 @@ body {
 	}
 	#verification-button {
 		width: 100%;
-	}	
+	}
 	a.button {
 		width: 100%;
-	}	
+	}
 	.selected-amount-wrapper {
 		font-size: 1.4em;
 	}
 }
-@media screen and (max-width: 365px) { 
-    
+@media screen and (max-width: 365px) {
+
 	.activity-progress-label {
 		font-size: 10px;
 	}
@@ -1203,7 +1203,7 @@ body {
 		font-size: 0.8em;
 	}
 }
-@media screen and (max-width: 340px) { 
+@media screen and (max-width: 340px) {
 	.platform-item-inner-wrapper {
 		font-size: 24px;
 	}
